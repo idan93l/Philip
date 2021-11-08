@@ -35,6 +35,10 @@
   .picture-page-text {
     margin-top: 20px;
   }
+
+  .welcome {
+    font-size: 75px;
+  }
 }
 
 /* @media (max-width: 1670px) {
