@@ -79,7 +79,6 @@ a {
 .arrow {
   position: absolute;
   bottom: 0;
-  margin-bottom: 45px;
   animation: jump 1s infinite alternate;
 }
 
