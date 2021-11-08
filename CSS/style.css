@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: #9BBF9D;
+    --light-color: #ffff;
+    --dark-color: #515B49;
+    --footer-color: #9AA1AB;
+}
+
+body {
+    color: var(--dark-color);
+    line-height: 1.5;
+    font-family: "Roboto Slab", serif;
+    overflow-x: hidden;
+    background: var(--light-color);
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
