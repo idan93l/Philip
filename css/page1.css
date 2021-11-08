@@ -77,11 +77,11 @@ a {
 }
 
 .arrow {
-  animation: jump 2s infinite alternate;
+  animation: jump 1s infinite alternate;
 }
 
 @keyframes jump {
   to {
-      transform: translateY(120px);
+      transform: translateY(-20px);
   }
 }
