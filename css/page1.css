@@ -1,7 +1,7 @@
 .page1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
   height: 100vh;
   width: 100vw;
@@ -76,6 +76,8 @@ a {
 }
 
 .arrow {
+  margin-top: 370px;
+  margin-bottom: 10px;
   animation: jump 1s infinite alternate;
 }
 
